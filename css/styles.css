@@ -1,0 +1,141 @@
+.site-header {
+    background-color: #fff;
+}
+
+.sitenav-link {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.site-header ul {
+    list-style: none;
+}
+
+.main-link {
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    background-color: #FF7500;
+    text-decoration: none;
+}
+
+
+.hero {
+    background: #252420;
+    color: white;
+}
+
+.hero-content {
+    width: 390px;
+}
+
+.hero-img {
+    width: 510px;
+    height: 510px;
+}
+
+.orange-line {
+    width: 80px;
+    height: 3px;
+    background: #FF7500;
+}
+
+.hero h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.features li {
+    width: 340px;
+}
+
+.feature-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 117, 0, 0.2);
+}
+
+.features h2 {
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.features h3 {
+    width: 214px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.promo {
+    background-color: #252420;
+    color: white;
+}
+
+.promo div {
+    width: 440px;
+}
+
+.promo h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.promo p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.promo p strong {
+    color: #FF7500;
+}
+
+.promo img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer hr {
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-links {
+    width: 224px;
+}
+
+.site-footer-links a {
+    font-size: 17px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #252420;
+}
