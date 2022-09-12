@@ -26,6 +26,9 @@ h3 {
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 5px solid #FF7500;
 }
 
 .site-header div {
@@ -66,12 +69,16 @@ h3 {
 }
 
 .site-header ul {
+    padding: 0;
     list-style: none;
     display: flex;
 }
 
 .main-link {
-    font-weight: 700;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: bold;
     font-size: 13px;
     line-height: 15px;
     color: white;
@@ -95,6 +102,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .hero-content {
@@ -104,11 +113,13 @@ h3 {
 .hero-img {
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 
 .orange-line {
     width: 80px;
     height: 3px;
+    border: none;
     background: #FF7500;
 }
 
@@ -116,8 +127,12 @@ h3 {
     font-size: 40px;
     line-height: 1.2;
 }
-
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
 .features ul {
+    padding: 0;
     justify-content: space-between;
     display: flex;
     list-style: none;
@@ -128,6 +143,10 @@ h3 {
 }
 
 .feature-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
     background: rgba(255, 117, 0, 0.2);
@@ -150,6 +169,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 12px;
     background-color: #252420;
     color: white;
 }
@@ -171,10 +191,13 @@ h3 {
     width: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 footer {
     background-color: #f8f8f8;
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
 .site-footer-top {
@@ -186,6 +209,7 @@ footer {
 .site-footer-socials {
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .site-footer-socials a {
@@ -209,16 +233,19 @@ footer ul {
 footer hr {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+    border: 0;
 }
 
 .site-footer-bottom {
     display: flex;
     justify-content: space-between;
+
 }
 
 .site-footer-links {
     line-height: 19px;
     width: 224px;
+    padding: 0;
 }
 
 .site-footer-links a {
