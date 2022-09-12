@@ -72,6 +72,16 @@ h3 {
     padding: 0;
     list-style: none;
     display: flex;
+    margin: 0;
+    margin-right: 32px;
+}
+
+.site-header li {
+    margin-right: 32px;
+}
+
+.site-header li:last-child {
+    margin: 0;
 }
 
 .main-link {
@@ -121,25 +131,41 @@ h3 {
     height: 3px;
     border: none;
     background: #FF7500;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .hero h2 {
     font-size: 40px;
     line-height: 1.2;
+    margin: 0;
+    margin-bottom: 24px;
 }
-.features{
+
+.hero-content p {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.features {
     padding-top: 210px;
     padding-bottom: 210px;
 }
+
 .features ul {
     padding: 0;
-    justify-content: space-between;
+    margin: 0;
     display: flex;
     list-style: none;
 }
 
 .features li {
     width: 340px;
+    margin-right: 40px;
+}
+
+.features li:last-child {
+    margin-right: 0;
 }
 
 .feature-icon-wrapper {
@@ -156,6 +182,8 @@ h3 {
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
+    margin: 0;
+    margin-bottom: 72px;
 }
 
 .features h3 {
@@ -181,6 +209,21 @@ h3 {
 .promo h2 {
     font-size: 40px;
     line-height: 120%;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.promo-text-wrapper {
+    margin-bottom: 24px
+}
+
+.promo p {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.promo p:last-child {
+    margin-bottom: 0;
 }
 
 .promo p strong {
@@ -210,12 +253,26 @@ footer {
     display: flex;
     align-items: center;
     padding: 0;
+    margin: 0;
+}
+
+.site-footer-socials li {
+    margin-right: 16px;
+}
+
+.site-footer-socials li:last-child {
+    margin-right: 0;
 }
 
 .site-footer-socials a {
     transition: color 0.4s ease,
     opacity 0.4s ease;
     color: #252420;
+    display: block;
+}
+
+.site-footer-socials svg {
+    display: block;
 }
 
 .site-footer-socials a:hover {
@@ -234,6 +291,8 @@ footer hr {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
     border: 0;
+    margin-top: 40px;
+    margin-bottom: 64px;
 }
 
 .site-footer-bottom {
@@ -246,6 +305,12 @@ footer hr {
     line-height: 19px;
     width: 224px;
     padding: 0;
+    margin: 0;
+    margin-right: 68px;
+}
+
+.site-footer-links:last-child {
+    margin-right: 0;
 }
 
 .site-footer-links a {
