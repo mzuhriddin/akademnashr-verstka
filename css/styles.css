@@ -22,6 +22,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-size: 16px;
@@ -88,8 +89,7 @@ body {
 .sitenav-list {
     display: flex;
     padding: 0;
-    margin: 0;
-    margin-right: 32px;
+    margin: 0 32px 0 0;
     list-style: none;
 }
 
@@ -161,7 +161,7 @@ body {
 }
 
 .hero-content {
-    width: 430px;
+    width: 390px;
 }
 
 .orange-line {
